@@ -5,7 +5,7 @@
 # Compiling:
 Compiling is simple, just run:
 ```
- gcc -std=c++20 -o cpp_p main.cpp
+ gcc -std=c++20 -o cpp_p src/main.cpp
 ```
 # Usage :
 
