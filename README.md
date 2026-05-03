@@ -1,6 +1,7 @@
 # cpp_project_creator
 ## A `cargo new` for c++. 
-#### It uses *cmake*, and *C++20*. <br> Other C++ standarts are planned to be added later.
+#### It uses *cmake*, and *C++20*. 
+<br> Other C++ standarts are planned to be added later.<br>(At least i guess they will be added... not sure, its already to many features for me).
 
 # Compiling:
 Compiling is simple, just run:
@@ -33,3 +34,9 @@ This project uses only standart c++ libraries.
 - iostream
 - string
 - filesystem
+
+# Coming... Maybe?
+- header only library support
+- stand-alone support
+- other C++ standarts support
+- CMake configuration support???
