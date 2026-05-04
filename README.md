@@ -15,7 +15,7 @@ Compiling is simple, just run:
 note: Order is **really important**.  
 Argument parser is **not** designed to handle any edge cases.
 ```
-./cpp_p <name> \[flags\]
+./cpp_p <name> [flags]
 ```
 
 ### Flags:
