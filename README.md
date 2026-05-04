@@ -19,7 +19,7 @@ Compiling is simple, just run:
 
 ### Flags:
 - `-l` or `--lib` to create a project as a library (by default it is an executable).
-- `-a` or `--app` to explicitly specifie that you want a normal executable. Added only for future extensions.
+- `-a` or `--app` to explicitly specify that you want a normal executable. Added only for future extensions.
 - `-ng` or `--no_git` to turn off auto git initialisation (initialised by default)
 - `-nmf` or `--no_main_fnc` to remove default file contents of main.cpp (off by default).
 - This flags work only if the project is a library:
