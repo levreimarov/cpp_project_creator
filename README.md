@@ -1,7 +1,8 @@
 # cpp_project_creator
 ## A `cargo new` for c++. 
-#### It uses *cmake*, and *C++20*. 
-<br> Other C++ standarts are planned to be added later.<br>(At least i guess they will be added... not sure, its already to many features for me).
+#### It uses *cmake*, and *C++20*.  
+Other C++ standarts are planned to be added later.  
+(At least i guess they will be added... not sure, it's already to many features for me).
 
 # Compiling:
 Compiling is simple, just run:
@@ -11,7 +12,8 @@ Compiling is simple, just run:
 # Usage :
 
 ### Command:
-note: Order is **really important**.<br> Argument parser is **not** designed to handle any edge cases.
+note: Order is **really important**.  
+Argument parser is **not** designed to handle any edge cases.
 ```
 ./cpp_p <name> \[flags\]
 ```
