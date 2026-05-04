@@ -1,29 +1,29 @@
 # cpp_project_creator
 ## A `cargo new` for c++. 
 #### It uses *cmake*, and *C++20*.  
-Other C++ standarts are planned to be added later.  
-(At least i guess they will be added... not sure, it's already to many features for me).
+> **note**: Other C++ standarts are planned to be added later.  
 
 # Compiling:
 Compiling is simple, just run:
-```
+```bash
  gcc -std=c++20 -o cpp_p src/main.cpp
 ```
 # Usage :
 
 ### Command:
-note: Order is **really important**.  
-Argument parser is **not** designed to handle any edge cases.
-```
+> **note**: Order is **really important**.  
+> Argument parser is **not** designed to handle any edge cases.
+```bash
 ./cpp_p <name> [flags]
 ```
 
 ### Flags:
-- `-l` or `--lib` to create a project as a library (default is an executable).
+- `-l` or `--lib` to create a project as a library (by default it is an executable).
 - `-a` or `--app` to explicitly specifie that you want a normal executable. Added only for future extensions.
-- `-ng` or `--no_git` to turn of auto git initialisation (on by default)
+- `-ng` or `--no_git` to turn off auto git initialisation (initialised by default)
 - `-nmf` or `--no_main_fnc` to remove default file contents of main.cpp (off by default).
 - This flags work only if the project is a library:
+  > **note**: to create a project as a library use `-l` or `--lib`.
   - `-st` or `--static` to specifie that a library should be *static* (off by default).
   - `-sh` or `--shared` to specifie that a library should be *shared* (on by default).
 - `-nb` or `--no_build` to *remove* the build directory (off by default).
@@ -37,7 +37,7 @@ This project uses only standart c++ libraries.
 - string
 - filesystem
 
-# Coming... Maybe?
+# Future Options
 - header only library support
 - stand-alone support
 - other C++ standarts support
