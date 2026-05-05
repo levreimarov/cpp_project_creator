@@ -2,19 +2,50 @@
 ## A `cargo new` for c++. 
 #### It uses *cmake*, and *C++20*.  
 > **note**: Other C++ standarts are planned to be added later.  
-
-# Compiling:
-Compiling is simple, just run:
+# Installation:
+### for Unix-based:
 ```bash
- g++ -std=c++20 -o cpp_p src/main.cpp
+git clone "https://github.com/levreimarov/cpp_project_creator.git"
+cd "cpp_project_creator"
+g++ -std=c++20 -o cpp_p "src/main.cpp" -O2 -Wall -Wextra
+sudo mv "./cpp_p" "/usr/local/bin/"
 ```
+#### or with Cmake
+```
+git clone https://github.com/levreimarov/cpp_project_creator.git
+cd cpp_project_creator
+cmake -B build
+cmake --build build
+sudo cmake --install build
+```
+---
+### for Windows:
+> **Warning**: if g++ is not installed,
+> replace it in the folowing command with any C++ 20 supporting compiler.
+```
+git clone https://github.com/levreimarov/cpp_project_creator.git
+cd cpp_project_creator
+g++ -std=c++20 -o cpp_p.exe src/main.cpp
+mkdir C:\bin 2>nul
+move cpp_p.exe C:\bin\
+setx /M PATH "%PATH%;C:\bin"
+```
+#### or with Cmake
+```
+git clone https://github.com/levreimarov/cpp_project_creator.git
+cd cpp_project_creator
+cmake -B build
+cmake --build build --config Release
+cmake --install build --config Release
+```
+
 # Usage :
 
 ### Command:
-> **note**: Order is **really important**.  
+> **Warning**: Order is **really important**.  
 > Argument parser is **not** designed to handle any edge cases.
 ```bash
-./cpp_p <name> [flags]
+cpp_p <name> [flags]
 ```
 
 ### Flags:
