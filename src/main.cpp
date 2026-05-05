@@ -130,7 +130,7 @@ void create_files(const std::filesystem::path& base, const Flags& flags) {
   create_cmake_file(base, flags);
 }
 
-void run_git_init(const Flags& flags, const std::filesystem::path& baseDirectory) {
+void run_git_init(const std::filesystem::path& baseDirectory) {
     const std::string cmd = "git init \"" + baseDirectory.string() + "\"";
     std::cout << "Running " << cmd << "." << std::endl;
     system(cmd.c_str());
@@ -164,7 +164,7 @@ int main(const int argc, const char ** argv) {
   std::cout << "Created Files." << std::endl;
 
   if (flags.git) {
-    run_git_init(flags, baseDirectory);
+    run_git_init(baseDirectory);
   }
   std::cout << "Done, results available in this folder." << std::endl;
   return EXIT_SUCCESS;
