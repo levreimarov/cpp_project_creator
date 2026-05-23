@@ -26,7 +26,7 @@ sudo cmake --install build
 ```
 git clone https://github.com/levreimarov/cpp_project_creator.git
 cd cpp_project_creator
-g++ -std=c++20 -o cpp_p.exe src/main.cpp
+g++ -std=c++20 -o cpp_p.exe "src/main.cpp" "src/flags.cpp" "src/files.cpp"
 mkdir C:\bin 2>nul
 move cpp_p.exe C:\bin\
 setx /M PATH "%PATH%;C:\bin"
