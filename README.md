@@ -7,7 +7,8 @@
 ```bash
 git clone "https://github.com/levreimarov/cpp_project_creator.git"
 cd "cpp_project_creator"
-g++ -std=c++20 -o cpp_p "src/main.cpp" -O2 -Wall -Wextra
+g++ -std=c++20 -o cpp_p "src/main.cpp" "src/flags.cpp" "src/files.cpp" -O2 -Wall -Wextra
+echo "Runnin sudo(may request your password)."
 sudo mv "./cpp_p" "/usr/local/bin/"
 ```
 #### or with Cmake
