@@ -5,14 +5,15 @@
 # Installation:
 ### for Unix-based:
 ```bash
-git clone "https://github.com/levreimarov/cpp_project_creator.git"
+git clone "https://github.com/levreimarov/cpp_project_creator.git" -b dev
 cd "cpp_project_creator"
-g++ -std=c++20 -o cpp_p "src/main.cpp" -O2 -Wall -Wextra
+g++ -std=c++20 -o cpp_p "src/main.cpp" "src/flags.cpp" "src/files.cpp" -O2 -Wall -Wextra
+echo "Runnin sudo(may request your password)."
 sudo mv "./cpp_p" "/usr/local/bin/"
 ```
 #### or with Cmake
 ```
-git clone https://github.com/levreimarov/cpp_project_creator.git
+git clone https://github.com/levreimarov/cpp_project_creator.git -b dev
 cd cpp_project_creator
 cmake -B build
 cmake --build build
@@ -23,16 +24,16 @@ sudo cmake --install build
 > **Warning**: if g++ is not installed,
 > replace it in the folowing command with any C++ 20 supporting compiler.
 ```
-git clone https://github.com/levreimarov/cpp_project_creator.git
+git clone https://github.com/levreimarov/cpp_project_creator.git -b dev
 cd cpp_project_creator
-g++ -std=c++20 -o cpp_p.exe src/main.cpp
+g++ -std=c++20 -o cpp_p.exe "src/main.cpp" "src/flags.cpp" "src/files.cpp"
 mkdir C:\bin 2>nul
 move cpp_p.exe C:\bin\
 setx /M PATH "%PATH%;C:\bin"
 ```
 #### or with Cmake
 ```
-git clone https://github.com/levreimarov/cpp_project_creator.git
+git clone https://github.com/levreimarov/cpp_project_creator.git -b dev
 cd cpp_project_creator
 cmake -B build
 cmake --build build --config Release
