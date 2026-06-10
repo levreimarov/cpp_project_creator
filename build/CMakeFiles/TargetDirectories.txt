@@ -1,0 +1,7 @@
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/cpp_p.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/edit_cache.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/rebuild_cache.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/list_install_components.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/install.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/install/local.dir
+/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build/CMakeFiles/install/strip.dir

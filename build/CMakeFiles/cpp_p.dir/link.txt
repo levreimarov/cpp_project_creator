@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cpp_p.dir/src/main.cpp.o CMakeFiles/cpp_p.dir/src/flags.cpp.o CMakeFiles/cpp_p.dir/src/files.cpp.o CMakeFiles/cpp_p.dir/src/copy.cpp.o -o cpp_p

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -Wall -Wextra -O2 -o CMakeFiles/cpp_p.dir/src/main.cpp.o -c /Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/main.cpp",
+  "file": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/main.cpp",
+  "output": "CMakeFiles/cpp_p.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -Wall -Wextra -O2 -o CMakeFiles/cpp_p.dir/src/flags.cpp.o -c /Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/flags.cpp",
+  "file": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/flags.cpp",
+  "output": "CMakeFiles/cpp_p.dir/src/flags.cpp.o"
+},
+{
+  "directory": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -Wall -Wextra -O2 -o CMakeFiles/cpp_p.dir/src/files.cpp.o -c /Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/files.cpp",
+  "file": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/files.cpp",
+  "output": "CMakeFiles/cpp_p.dir/src/files.cpp.o"
+},
+{
+  "directory": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++20 -arch arm64 -Wall -Wextra -O2 -o CMakeFiles/cpp_p.dir/src/copy.cpp.o -c /Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/copy.cpp",
+  "file": "/Users/levreimarov/ProgrammingProjects/GitHub/cpp_project_creator/src/copy.cpp",
+  "output": "CMakeFiles/cpp_p.dir/src/copy.cpp.o"
+}
+]
